@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
-export default function Shell() {
+type ShellProps = {
+  children: ReactNode
+}
+export default function Shell(props:ShellProps) {
   return (
-    <div>
-        
+    <div className=' h-screen-header w-[40%] bg-[#9aa4db] overflow-auto' >
+        {props.children}
     </div>
   )
 }
