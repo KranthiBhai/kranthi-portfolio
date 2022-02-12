@@ -10,6 +10,9 @@ module.exports = {
       height: {
         "screen-header" : "calc(100vh - 4rem)"
       },
+      colors : {
+        "clr1" : "#8a2be2",
+      }
     },
   },
   plugins: [],
