@@ -1,7 +1,13 @@
 import React from 'react'
+import { DetailsCard } from '../../components/DetailsCard'
+import Shell from '../../components/Shell'
 
-export default function index() {
+export default function Home() {
   return (
-    <div>index</div>
+          <div>
+            <Shell>
+              <DetailsCard />
+            </Shell>
+          </div>
   )
 }

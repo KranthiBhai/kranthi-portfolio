@@ -1,12 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/home';
+import Resume from './pages/resume';
+import Projects from './pages/projects';
+import Blog from './pages/blog';
+import Contact from './pages/contact';
+import { Navbar } from "./components/navbars/Navbar";
 function App() {
   return (
-    <h1 className="text-3xl text-blue-500 font-bold underline">
-    Hello world!
-  </h1>
+    <>
+    <Navbar />    
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/resume" element={<Resume />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+    </>
   );
 }
 
