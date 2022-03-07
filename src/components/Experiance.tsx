@@ -23,8 +23,8 @@ export default function Experiance() {
             </div>
 
             <div className=' mx-10'>
-                <p> From July-14, 2021 i have been working in <strong>SqubeSoftSol Pvt Ltd compony</strong> as a React Developer.
-                    I've been working with projects like dating websites and creating HTML templates. Familiar with CSS frameworks LocationMarkerIcon
+                <p> From July-14, 2021, i have been working in <strong>SqubeSoftSol Pvt Ltd compony</strong> as a React Developer.
+                    I've been working with projects like dating websites and creating HTML templates. Familiar with CSS frameworks like
                     Tailwindcss, Bootstrap, Material UI, Radix-ui.
                 </p>
             </div>
