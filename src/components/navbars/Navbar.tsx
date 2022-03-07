@@ -27,11 +27,12 @@ export const Navbar = () => {
             </div>
 
             <div>
-                <NavLink style={navLinkStyles} className=' mx-2 font-semibold' to="/">Home</NavLink>
+                <NavLink style={navLinkStyles} className=' mx-2 font-semibold' to="/global-destination-management">Global Destination Management</NavLink>
+                {/* <NavLink style={navLinkStyles} className=' mx-2 font-semibold' to="/">Home</NavLink>
                 <NavLink style={navLinkStyles} className=' mx-2 font-semibold' to="/resume">Resume</NavLink>
                 <NavLink style={navLinkStyles} className=' mx-2 font-semibold' to="/projects">Projects</NavLink>
                 <NavLink style={navLinkStyles} className=' mx-2 font-semibold' to="/blog">Blog</NavLink>
-                <NavLink style={navLinkStyles} className=' mx-2 font-semibold' to="/contact">Contact</NavLink>
+                <NavLink style={navLinkStyles} className=' mx-2 font-semibold' to="/contact">Contact</NavLink> */}
             </div>
         </nav>
     )
