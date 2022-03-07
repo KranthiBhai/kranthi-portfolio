@@ -8,7 +8,7 @@ export const DetailsCard = () => {
               <img src="/media/home/photo1.png" alt="img" className=' w-60 h-56 rounded-[50%]' />
             </div>
             {/* <div> */}
-            <p className=' text-white font-bold text-xl text-center'>TATANABOINA JAYA KRANTHI KUMAR</p>
+            <p className=' text-white font-bold text-xl text-center'>TATANABOINA JAYA KRANTHI KUMAR HB</p>
             <div className=' w-1/2 h-1 bg-pink-400'>.</div>
             <p className=' text-white font-bold text-lg text-center'>REACT DEVELOPER</p>
             {/* </div>   */}
