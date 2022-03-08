@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        "screen-header" : "calc(100vh - 4rem)"
+        "screen-header-4rem" : "calc(100vh - 4rem)",
+        "screen-header-5rem" : "calc(100vh - 5rem)",
       },
       colors : {
         "clr1" : "#8a2be2",

@@ -14,7 +14,7 @@ export const Navbar = () => {
         }
     }
     return (
-        <nav className=' bg-gray-50 shadow-xl w-full h-16 flex items-center justify-between px-10'>
+        <nav className=' bg-gray-50 shadow-xl w-full h-16 lg:h-20 flex items-center justify-between px-10'>
             <div className=' flex items-center gap-x-2'>
                 <div>
                     <img src="/media/home/eco-pic-01.jpg" alt="img" className=' w-10 h-10 border-2 border-white rounded-lg' />

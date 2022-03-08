@@ -8,12 +8,12 @@ export const DetailsCard = () => {
     {
       name: "facebook",
       icon: Facebook,
-      href: "https://de-de.facebook.com/jayakumar.kranthi?hc_ref=ARTEKcptaoC1_Rpdbu4w0TeMkYchLJqM_XWjdJhNLh7o_x_DhHeyXWDDSmqU0-YBYlQ&fref=nf",
+      href: "https://www.facebook.com/jayakumar.kranthi",
     },
     {
       name: "twitter",
       icon: Twitter,
-      href: "https://twitter.com/Kranthi_HB/status/1049857150506475520",
+      href: "https://twitter.com/KranthiKumar956",
     },
     {
       name: "linkedin",
@@ -27,10 +27,10 @@ export const DetailsCard = () => {
     },
   ]
   return (
-    <div className=''>
+    <div className=' relative left-40 shadow-2xl'>
       <div className=' bg-[#E2C275] shadow-2xl w-80 px-4 flex flex-col items-center justify-evenly'>
         <div className=' my-8'>
-          <img src="/media/home/photo1.png" alt="img" className=' w-52 h-48 rounded-[50%]' />
+          <img src="/media/home/photo1.png" alt="img" className=' w-52 h-48 rounded-[50%] object-cover' />
         </div>
         <div className=' mb-8 flex flex-col items-center gap-y-4'>
           <p className=' text-white font-bold text-xl text-center flex flex-wrap'>TATANABOINA JAYA KRANTHI KUMAR</p>
@@ -40,11 +40,11 @@ export const DetailsCard = () => {
       </div>
 
       {/* Social Media */}
-      <div className=' w-80 py-2 bg-white flex items-center justify-around'>
+      <div className=' w-80 py-4 bg-white flex items-center justify-around'>
           {socialMedia.map((item, index) => {
             return(
-              <div key={index} onClick={() => navigate(item.href)} className=" w-10 h-10">
-                {item.icon && <item.icon  />}
+              <div key={index}>
+                <a href={item.href} target="_blank">{item.icon && <item.icon  style={{width: "30px", height: "30px"}} />}</a>
               </div>
             );
           })}
