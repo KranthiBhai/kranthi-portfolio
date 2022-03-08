@@ -5,7 +5,7 @@ import Shell from '../../components/Shell'
 export default function Home() {
   return (
           <div>
-            <Shell classNames="w-[40%] bg-[#d3d3d3]">
+            <Shell classNames="w-[40%] bg-[#C36A2D]">
               <DetailsCard />
             </Shell>
           </div>
