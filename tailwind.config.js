@@ -15,7 +15,10 @@ module.exports = {
         "clr1" : "#8a2be2",
         "clr2" : "#C36A2D",
         "clr3" : "#E2C275",
-      }
+      },
+      boxShadow: {
+        '3xl': '0 10px 16px rgba(0, 0, 0, 0.4)',
+      },
     },
   },
   plugins: [],
