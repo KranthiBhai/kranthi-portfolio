@@ -13,6 +13,8 @@ module.exports = {
       },
       colors : {
         "clr1" : "#8a2be2",
+        "clr2" : "#C36A2D",
+        "clr3" : "#E2C275",
       }
     },
   },

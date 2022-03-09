@@ -20,7 +20,7 @@ export default function Home() {
               <button onClick={() => navigate('/projects')} className=' px-2 py-1 border rounded-lg text-xl hover:bg-blue-800 hover:text-white hover:border-none border-black '>Projects</button>
             </div>
             <p className=' w-1/2'>
-              I am currently working as a <strong>React Developer</strong> in <strong>SqubeSoftSol.pvt.ltd</strong> company from july/14/22. My strength is the HTML & CSS , I can work any kind of project in HTML & CSS. I have good experiance and expert in css frameworks like Tailwindcss, Radix-Ui, Material-Ui, Bootstrap etc.,
+              I am currently working as a <strong>React Developer</strong> in <strong>SqubeSoftSol.pvt.ltd</strong> company from july/14/21. My strength is the HTML & CSS , I can work any kind of project in HTML & CSS. I have good experiance and expert in css frameworks like Tailwindcss, Radix-Ui, Material-Ui, Bootstrap etc.,
             </p>
           </div>
         </div>
