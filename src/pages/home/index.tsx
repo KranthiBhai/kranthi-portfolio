@@ -1,3 +1,4 @@
+import { Email, PhoneAndroid } from '@mui/icons-material';
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { DetailsCard } from '../../components/DetailsCard'
@@ -22,6 +23,17 @@ export default function Home() {
             <p className=' w-1/2'>
               I am currently working as a <strong>React Developer</strong> in <strong>SqubeSoftSol.pvt.ltd</strong> company from july/14/21. My strength is the HTML & CSS , I can work any kind of project in HTML & CSS. I have good experiance and expert in css frameworks like Tailwindcss, Radix-Ui, Material-Ui, Bootstrap etc.,
             </p>
+            <div className=' flex flex-col gap-y-4 my-8'>
+              <div className=' flex items-center gap-x-2'>
+                <PhoneAndroid className=" w-10 h-10" />
+                <p>+91 7659818566</p>
+              </div>
+
+              <div className=' flex items-center gap-x-2'>
+                <Email className=" w-10 h-10" />
+                <p>jayakranthi956@gmail.com</p>
+              </div>
+            </div>
           </div>
         </div>
       </Shell>
