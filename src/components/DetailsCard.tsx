@@ -27,7 +27,7 @@ export const DetailsCard = () => {
     },
   ]
   return (
-    <div className=' relative left-40 shadow-2xl h-fit'>
+    <div className=' relative md:left-20 lg:left-40 shadow-2xl h-fit'>
       <div className=' bg-[#E2C275] shadow-2xl w-80 px-4 flex flex-col items-center justify-evenly'>
         <div className=' my-8'>
           <img src="/media/home/photo1.png" alt="img" className=' w-52 h-48 rounded-[50%] object-cover' />

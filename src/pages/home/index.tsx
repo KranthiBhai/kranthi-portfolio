@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <div>
       <Shell >
-        <div className=' w-full h-full flex overflow-hidden'>
-          <div className="w-[40%] h-full flex pt-20 justify-end bg-[#C36A2D]">
+        <div className=' w-full h-full flex flex-wrap justify-center md:justify-start bg-[#C36A2D] md:bg-white'>
+          <div className="  md:w-[40%] h-full flex pt-20 justify-end md:bg-[#C36A2D]">
             <DetailsCard />
           </div>
-          <div className=' w-[60%] relative left-40 px-2 pt-20'>
+          <div className=' md:w-[60%] relative md:left-20 lg:left-40 px-2 pt-20'>
             <h1 className=' text-[4rem] font-extrabold'>Hello</h1>
             <p className=' text-2xl'>Here's who I am & what I do</p>
             <div className=' flex items-center gap-x-4 my-4'>
