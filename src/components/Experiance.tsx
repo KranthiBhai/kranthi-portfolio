@@ -10,7 +10,7 @@ export default function Experiance() {
                 <h1 className=' text-clr1 font-bold text-xl'>2021 - Present</h1>
                 <div className=' flex items-center'>
                 <BriefcaseIcon className=' w-6 h-6 mr-2 my-2 fill-clr1' />
-                <p className=' font-bold'>REACT DEVELOPER</p>
+                <p className=' font-bold text-ellipsis whitespace-nowrap'>FRONTEND DEVELOPER</p>
                 </div>
                 <div className=' flex items-center'>
                 <OfficeBuildingIcon className=' w-6 h-6 mr-2 my-2 fill-clr1 ' />
@@ -23,7 +23,7 @@ export default function Experiance() {
             </div>
 
             <div className=' mx-10'>
-                <p> From July-14, 2021, i have been working in <strong>SqubeSoftSol Pvt Ltd compony</strong> as a React Developer.
+                <p> From Jan, 2021, i have been working in <strong>SqubeSoftSol Pvt Ltd compony</strong> as a Frontend Developer.
                     I've been working with projects like dating websites and creating HTML templates. Familiar with CSS frameworks like
                     Tailwindcss, Bootstrap, Material UI, Radix-ui.
                 </p>

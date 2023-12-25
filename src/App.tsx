@@ -5,11 +5,11 @@ import Resume from './pages/resume';
 import Projects from './pages/projects';
 import Blog from './pages/blog';
 import Contact from './pages/contact';
-import { Navbar } from "./components/navbars/Navbar";
+// import { Navbar } from "./components/navbars/Navbar";
 function App() {
   return (
     <>
-    <Navbar />    
+    {/* <Navbar />     */}
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/resume" element={<Resume />} />
