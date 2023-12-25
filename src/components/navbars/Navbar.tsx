@@ -94,7 +94,7 @@ function MobMenu() {
             {/* Sidenav for Mobile Menu */}
             {showMobMenu && (
                 <div className="absolute top-0 right-0 min-w-[180px] w-[50%] z-50">
-                    <nav className="flex-1 h-screen overflow-y-auto px-2 space-y-1 bg-gradient-to-r from-clr2/90 to-clr4/90">
+                    <nav className="flex-1 h-screen overflow-y-auto px-2 space-y-1 bg-gradient-to-r from-clr2 to-clr4">
                         <div className="relative flex items-center justify-end top-2">
                             <XCircleIcon
                                 className="w-8 h-8 text-white "

@@ -26,11 +26,11 @@ export default function Education() {
     ];
     return (
         <>
-            <div className=' w-[55%] mx-auto my-10'>
-                <h1 className=' text-clr1 font-bold text-2xl'>Education</h1>
+            <div className=' w-[90%] md:w-[75%] lg:w-[55%] mx-auto my-10'>
+                <h1 className=' text-white font-bold text-2xl mb-4'>Education</h1>
                 {educationData.map((item, index) => {
                     return (
-                        <div key={index} className=' bg-white shadow-2xl my-10 p-6 flex flex-col'>
+                        <div key={index} className=' bg-white shadow-2xl mb-10 p-6 flex flex-col rounded'>
                             <div >
                                 <h1 className=' text-clr1 font-bold text-xl'>{item.CourseDuration}</h1>
                                 <div className=' flex items-center'>

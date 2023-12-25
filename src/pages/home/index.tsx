@@ -49,13 +49,13 @@ export default function Home() {
             <div className=" flex items-center gap-x-4 my-4">
               <button
                 onClick={() => navigate("/resume")}
-                className=" px-2 py-1 bg-blue-800 text-xl text-white rounded-lg"
+                className=" px-2 py-1 bg-[#C36A2D] text-xl text-white rounded-lg"
               >
                 Resume
               </button>
               <button
                 onClick={() => navigate("/projects")}
-                className=" px-2 py-1 border rounded-lg text-xl hover:bg-blue-800 hover:text-white hover:border-none border-black "
+                className=" px-2 py-1 border rounded-lg text-xl hover:text-white hover:bg-[#C36A2D] border-black hover:border-transparent "
               >
                 Projects
               </button>
