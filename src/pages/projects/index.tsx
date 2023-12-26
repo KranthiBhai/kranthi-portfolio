@@ -44,7 +44,7 @@ With this Delivery App I have developed the Delivery Boy App & Merchant App, Whe
         <h1 className=" w-full text-center text-white text-3xl font-bold py-10">
           Projects
         </h1>
-        <p className=" w-1/2 mx-auto text-white">
+        <p className=" w-[90%] lg:w-1/2 mx-auto text-white">
           Here are my latest Projects which are build with React Js with
           Typescript template and the css framework used in the projects is
           Tailwind CSS and used several Libraries like Radix-UI, Material-UI,
@@ -57,10 +57,10 @@ With this Delivery App I have developed the Delivery Boy App & Merchant App, Whe
             return (
               <div
                 key={index}
-                className=" rounded-lg shadow-2xl bg-gray-100 w-2/3 mx-auto min-h-[15rem] flex"
+                className=" rounded-lg shadow-2xl bg-gray-100 w-[90%] lg:w-2/3 mx-auto min-h-[15rem] flex flex-col sm:flex-row"
               >
                 {/* text */}
-                <div className=" w-1/2 p-4">
+                <div className=" w-full sm:w-1/2 p-4">
                   <div className=" mb-4">
                     <h1 className=" text-xl font-bold">{item.title}</h1>
                     <p className=" text-sm">{item.type}</p>
@@ -68,7 +68,7 @@ With this Delivery App I have developed the Delivery Boy App & Merchant App, Whe
                   <p className=" h-[9rem] overflow-auto">{item.data}</p>
                 </div>
                 {/* Image */}
-                <div className=" w-1/2 min-h-[15rem] h-[256px]">
+                <div className="w-full sm:w-1/2 min-h-[15rem] h-[256px]">
                   <a
                     href={item.href}
                     target="_blank"
